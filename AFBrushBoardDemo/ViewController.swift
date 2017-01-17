@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         self.view.addSubview(AFBrushBoard(frame:self.view.frame))
         
     }
-    override func prefersStatusBarHidden() -> Bool {
+    override var prefersStatusBarHidden : Bool {
         return true
     }
 }
